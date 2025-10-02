@@ -1,0 +1,88 @@
+/* ===== Reset Browser Defaults ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Base HTML & Body ===== */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* dark background */
+  color: #ffffff; /* main text color */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Headings ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #e53935; /* primary red accent for headings */
+}
+
+/* ===== Paragraphs ===== */
+p {
+  color: #bbbbbb; /* secondary gray text */
+  line-height: 1.5;
+}
+
+/* ===== Buttons ===== */
+button {
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Container & Layout Helpers ===== */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* ===== Card Styles ===== */
+.card {
+  background-color: #1e1e1e; /* slightly lighter black */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  text-align: center;
+}
+
+/* ===== Footer ===== */
+footer {
+  color: #888888;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* ===== Global Scrollbar Styling (optional) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e53935;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
